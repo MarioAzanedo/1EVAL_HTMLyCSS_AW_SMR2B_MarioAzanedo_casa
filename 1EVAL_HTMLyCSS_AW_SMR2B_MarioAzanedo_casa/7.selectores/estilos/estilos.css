@@ -1,0 +1,34 @@
+
+*{
+    background-color: rgb(134, 134, 134);
+}
+h1, address{
+    background-color: rgb(204, 0, 255);
+}
+
+div{
+    border: solid 3px rgb(0, 39, 196);
+}
+p.parrafoamarillo{
+    background-color: rgb(159, 161, 42);
+}
+p#fondoazul{
+    background-color: blue;
+}
+div p{
+    color: rgb(255, 126, 147);
+}
+div.div2>p{
+    color: blue;
+}
+
+div.div1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+}
+
+div.div2{
+    border-top-color: rgb(0, 247, 255);
+    border-bottom: rgb(255, 125, 227) 5px dotted;
+    border-radius: 25px;
+}

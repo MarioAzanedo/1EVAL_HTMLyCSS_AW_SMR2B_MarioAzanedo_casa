@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Ejercicio de formularios</h1>
+    <hr>
+    <form action="">
+        <label for="nombre">
+            Nombre: <input type="text" name="nombre" id="nombre" placeholder="inserte tu name">
+        </label>
+        <label for="frase">
+            Completa la frase: <input type="text" name="frase" id="frase" value="y yo soy..." size="30">
+        </label>
+        <label for="apellidos">
+            Apellidos: <input type="text" name="apellidos" id="apellidos">
+        </label>
+
+        <label for="contraseña">
+        Contraseña: <input type="password" name="contraseña" id="contraseña"></label>
+        <label for="numfav">
+            Número favorito: <input type="number" name="favorito" id="favorito">
+        </label>
+        <label for="colorFavorito">
+            Color Favorito: <input type="color" name="colorFavorito" id="colorFavorito" value="#00000">
+        </label>
+        <label for="fechanaci">
+            Fecha Nacimiento: <input type="date" name="fechanaci" id="fechanaci">
+        </label>
+        <label for="HoradeEntrada">
+            Hora de entrada: <input type="time" name="HoradeEntrada" id="HoradeEntrada">
+        </label>
+        <label for="Teletrabajo">
+            Teletrabajo: <input type="checkbox" name="Teletrabajo" id="Teletrabajo">
+        </label>
+        <p>Intereses</p>
+        <label for="anime">
+            <input type="checkbox" name="anime" id="anime">anime
+        </label>
+        <label for="pelis">
+            <input type="checkbox" name="pelis" id="pelis">pelis
+        </label><br>
+        <label>
+            Turno: <br>
+            <input type="radio" name="turno" id="Mañana">Mañana <br>
+            <input type="radio" name="turno" id="Tarde">Tarde <br>
+            <input type="radio" name="turno" id="dual">dual
+        </label>
+        <label><!--esto no lo entiendo muy bien porque se me bloquea-->
+            <p>Valoración de la empresa (valores 1-10): <input type="range" name="" id="" min="1" max="10" step="1"></p>
+        </label>
+        <label>
+            Nivel de ingles (A1-C2)
+            <input type="range" name="" id="" min="1" max="6" list="nivelingles">
+            <datalist id="nivelingles">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+            </datalist>
+        </label>
+        <label for=""><!--no entiendo porque el profe lo deja vacio pero asi lo voy a poner, no vaya a ser que en el examen no funcione xd-->
+            Más información: <textarea name="" id="" rows="5" cols="20"></textarea>
+        </label>
+        <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+    </form>
+</body>
+</html>
